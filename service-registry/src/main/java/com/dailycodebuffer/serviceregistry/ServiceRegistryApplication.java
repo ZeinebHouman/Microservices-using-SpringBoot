@@ -1,13 +1,13 @@
-package com.dailycodebuffer.user.service;
+package com.dailycodebuffer.serviceregistry;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Application {
+public class ServiceRegistryApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Application.class, args);
+		SpringApplication.run(ServiceRegistryApplication.class, args);
 	}
 
 }
